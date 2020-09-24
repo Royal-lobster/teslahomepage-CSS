@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global styles */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #242728;
+  position: relative;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+li {
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+a {
+  color: #393c41;
+  text-decoration: none;
+  border-bottom: 1.5px solid #393c41;
+}
+a:hover {
+  border-bottom: 2px solid #000;
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+}
+.branding img {
+  width: 100px;
+}
+
+.line {
+  width: 18px;
+  height: 2px;
+  background-color: #242728;
+  margin: 3px;
+}
+
+/* section styles */
+.car {
+  height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.car h2 {
+  font-size: 40px;
+  color: #393c41;
+}
+.car p {
+  font-size: 14px;
+}
+.section__btns {
+  position: absolute;
+  margin: 0 auto;
+  width: 100vw;
+  left: 0;
+  bottom: 50px;
+}
+.btn {
+  padding: 13px 85px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  border-radius: 99px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.btn:hover {
+  border: none;
+}
+
+.section__btn__2 {
+  background-color: hsla(0, 0%, 100%, 0.85);
+  color: #242728;
+}
+
+.car__modelS {
+  background-image: url(./assets/img/Desktop-ModelS.jpeg);
+}
+.car__model3 {
+  background-image: url(./assets/img/Desktop-Model3.jpeg);
+}
+.car__modelX {
+  background-image: url(./assets/img/Desktop-ModelX.jpeg);
+}
+.car__modelY {
+  background-image: url(./assets/img/Desktop-ModelY.jpeg);
+}
+.car__model__house {
+  background-image: url(./assets/img/Desktop-SolarPanels.jpeg);
+}
+.car__model__roofs {
+  background-image: url(./assets/img/Desktop-SolarRoof.jpeg);
+}
+.car__model__accessories {
+  background-image: url(./assets/img/Desktop-Accessories.jpeg);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+footer li {
+  font-size: 12px;
+}
